@@ -35,6 +35,11 @@ body{
   font-size:12px;
   font-weight:700;
 }
+.topbar h2{
+  margin:0;
+  font-size:12px;
+  font-weight:700;
+}
 
 
 .grid{
@@ -117,5 +122,6 @@ body{
   font-size:13px;
   color:var(--muted);
 }
+
 
 
