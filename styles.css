@@ -18,7 +18,6 @@ body{
   -moz-osx-font-smoothing:grayscale;
   padding-bottom:48px;
 }
-
 .topbar{
   padding:14px 16px;
   display:flex;
@@ -36,17 +35,7 @@ body{
   font-size:16px;
   font-weight:700;
 }
-.topbar input[type="search"]{
-  width:40%;
-  min-width:160px;
-  max-width:420px;
-  padding:8px 10px;
-  background:var(--glass);
-  border:1px solid rgba(255,255,255,0.04);
-  color:var(--text);
-  border-radius:8px;
-  outline:none;
-}
+
 
 .grid{
   display:grid;
@@ -128,3 +117,4 @@ body{
   font-size:13px;
   color:var(--muted);
 }
+
