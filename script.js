@@ -5,22 +5,22 @@
 
 const sites = [
   // သတင်းဆိုဒ် နမူနာများ
-{ name: "BBC", url: "https://www.bbc.com/burmese", category: "သတင်း", desc: "မြန်မာ သတင်း", domain: "https://i.ibb.co/RnHpmYC/bbc.png" },
-  { name: "DVB", url: "https://www.dvb.no/", category: "သတင်း", desc: "မြန်မာ သတင်း", domain: "https://i.ibb.co/DDhp3BLH/photo-2025-09-17-20-49-53.jpg" },
-  { name: "Mizzima", url: "https://bur.mizzima.com/", category: "သတင်း", desc: "မြန်မာ သတင်း", domain: "https://i.ibb.co/kgzRk3Sv/mizzima.png" },
-  { name: "The Irrawaddy", url: "https://burma.irrawaddy.com/category/news", category: "သတင်း", desc: "မြန်မာ/နိုင်ငံတကာ သတင်း", domain: "https://i.ibb.co/LXDWzxFz/image.jpg" },
-  { name: "Eleven Media", url: "https://news-eleven.com/news", category: "သတင်း", desc: "ပြည်တွင်း သတင်း", domain: "https://i.ibb.co/SwWmsWRw/eleven.png" },
-  { name: "Myanmar NOW", url: "https://myanmar-now.org/mm/", category: "သတင်း", desc: "သတင်းဆန်းစစ်", domain: "https://i.ibb.co/zH830S40/photo-2025-09-17-20-49-49.jpg" },
+{ name: "BBC", url: "https://www.bbc.com/burmese", category: "သတင်း", desc: "မြန်မာ သတင်း", domain: "bbc.com/burmese" },
+  { name: "DVB", url: "https://www.dvb.no/", category: "သတင်း", desc: "မြန်မာ သတင်း", domain: "dvb.no" },
+  { name: "Mizzima", url: "https://bur.mizzima.com/", category: "သတင်း", desc: "မြန်မာ သတင်း", domain: "bur.mizzima.com" },
+  { name: "The Irrawaddy", url: "https://burma.irrawaddy.com/category/news", category: "သတင်း", desc: "မြန်မာ/နိုင်ငံတကာ သတင်း", domain: "burma.irrawaddy.com" },
+  { name: "Eleven Media", url: "https://news-eleven.com/news", category: "သတင်း", desc: "ပြည်တွင်း သတင်း", domain: "news-eleven.com/news" },
+  { name: "Myanmar NOW", url: "https://myanmar-now.org/mm/", category: "သတင်း", desc: "သတင်းဆန်းစစ်", domain: "myanmar-now.org/mm/" },
 
   // ဗီဒီယို / မြန်မာစာတန်းထိုး / ဇာတ်ကား နမူနာများ
  
    { name: "မြန်မာစာတန်းထိုးဇာတ်ကားများ", url: "https://mmsubmovie.com/", category: "ဇာတ်ကား", desc: "Asian shows & movies", domain: "mmsubmovie.com" },
   { name: "မြန်မာစာတန်းထိုးရုပ်ရှင်", url: "https://yoteshin.net/", category: "ဇာတ်ကား", desc: "Asian shows & movies", domain: "yoteshin.net" },
   { name: "Viu (Myanmar)", url: "https://www.viu.com/ott/mm", category: "ဇာတ်ကား", desc: "Asian shows & movies", domain: "viu.com" },
-  { name: "PyonePlay", url: "https://www.pyoneplay.com/", category: "ဇာတ်ကား", desc: "Myanmar TV & drama", domain: "https://i.ibb.co/CK9C2LdN/pyoneplay.png" },
-  { name: "ကမ္ဘာ့ချန်နယ်လိုင်းပေါင်းစုံ", url: "https://tv.garden/mm/cdsVyojNjKqygk", category: "Live", desc: "StreamTV", domain: "https://i.ibb.co/hxXvFXnd/photo-2025-09-17-20-49-43.jpg" },
-  { name: "Coda Shop Thai", url: "https://www.codashop.com/th-th/", category: "Game", desc: "Shoping", domain: "https://i.ibb.co/gbXW295f/photo-2025-09-17-20-54-15.jpg" }, 
-  { name: "Iflix (example)", url: "https://www.iflix.com/", category: "ဇာတ်ကား", desc: "Movies & series", domain: "https://i.ibb.co/rKP2qdtD/photo-2025-09-17-20-49-32.jpg" }
+  { name: "PyonePlay", url: "https://www.pyoneplay.com/", category: "ဇာတ်ကား", desc: "Myanmar TV & drama", domain: "pyoneplay.com" },
+  { name: "ကမ္ဘာ့ချန်နယ်လိုင်းပေါင်းစုံ", url: "https://tv.garden/mm/cdsVyojNjKqygk", category: "Live", desc: "StreamTV", domain: "tv.garden" },
+  { name: "Coda Shop Thai", url: "https://www.codashop.com/th-th/", category: "Game", desc: "Shoping", domain: "codashop.com" }, 
+  { name: "Iflix (example)", url: "https://www.iflix.com/", category: "ဇာတ်ကား", desc: "Movies & series", domain: "iflix.com" }
 ];
 
 // grid element
@@ -79,6 +79,7 @@ render(sites);
    - sites array ကို ဖိုင်ရှင်းပေါ်က JSON ဖိုင်တစ်ခုနဲ့ ထည့်ချင်တယ်ဆိုရင် fetch() သုံးပြီး ပြောင်းလဲနိုင်သည်။
    - Icon မပြနိုင်ပါက default placeholder ထည့်လိုပါက makeCard() ထဲမှာ စစ်ပြီး image.onerror သတ်မှတ်နိုင်သည်။
 */
+
 
 
 
