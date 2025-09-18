@@ -40,7 +40,11 @@ body{
   font-size:12px;
   font-weight:500;
 }
-
+.topbar h3{
+  margin:0;
+  font-size:10px;
+  font-weight:300;
+}
 
 .grid{
   display:grid;
@@ -122,6 +126,7 @@ body{
   font-size:13px;
   color:var(--muted);
 }
+
 
 
 
