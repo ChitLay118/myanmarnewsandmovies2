@@ -18,8 +18,9 @@ const sites = [
   { name: "မြန်မာစာတန်းထိုးရုပ်ရှင်", url: "https://yoteshin.net/", category: "ဇာတ်ကား", desc: "Asian shows & movies", domain: "yoteshin.net" },
   { name: "Viu (Myanmar)", url: "https://www.viu.com/ott/mm", category: "ဇာတ်ကား", desc: "Asian shows & movies", domain: "viu.com" },
   { name: "PyonePlay", url: "https://www.pyoneplay.com/", category: "ဇာတ်ကား", desc: "Myanmar TV & drama", domain: "pyoneplay.com" },
-  { name: "ကမ္ဘာ့ချန်နယ်လိုင်းပေါင်းစုံ", url: "https://tv.garden/mm/cdsVyojNjKqygk", category: "Live", desc: "StreamTV", domain: "tv.garden" },
+  { name: "soulkingdom", url: "https://soulkingdom.net/", category: "ဇာတ်ကား", desc: "drama", domain: "soulkingdom.net" },
   { name: "Burmesesubtitles", url: "https://burmesesubtitles.com/", category: "ဇာတ်ကား", desc: "Asian shows & movies", domain: "burmesesubtitles.com" }, 
+  { name: "ကမ္ဘာ့ချန်နယ်လိုင်းပေါင်းစုံ", url: "https://tv.garden/mm/cdsVyojNjKqygk", category: "Live", desc: "StreamTV", domain: "tv.garden" },
   { name: "Iflix (example)", url: "https://www.iflix.com/", category: "ဇာတ်ကား", desc: "Movies & series", domain: "iflix.com" }
 ];
 
@@ -79,6 +80,7 @@ render(sites);
    - sites array ကို ဖိုင်ရှင်းပေါ်က JSON ဖိုင်တစ်ခုနဲ့ ထည့်ချင်တယ်ဆိုရင် fetch() သုံးပြီး ပြောင်းလဲနိုင်သည်။
    - Icon မပြနိုင်ပါက default placeholder ထည့်လိုပါက makeCard() ထဲမှာ စစ်ပြီး image.onerror သတ်မှတ်နိုင်သည်။
 */
+
 
 
 
