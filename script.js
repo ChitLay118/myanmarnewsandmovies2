@@ -22,6 +22,7 @@ const sites = [
   { name: "Burmesesubtitles", url: "https://burmesesubtitles.com/", category: "ဇာတ်ကား", desc: "Asian shows & movies", domain: "burmesesubtitles.com" },
   { name: "RainbowMovie", url: "https://rmcmm.org/", category: "ဇာတ်ကား", desc: "Asian shows & movies", domain: "rmcmm.org" },
   { name: "MovieMMk", url: "https://moviemmk.com/", category: "ဇာတ်ကား", desc: "ကုလားကား", domain: "moviemmk.com" },
+  { name: "mmsubmovies", url: "https://mmsubmovies.epizy.com/", category: "ဇာတ်ကား", desc: "movies", domain: "mmsubmovies.epizy.com" },
   { name: "ကမ္ဘာ့ချန်နယ်လိုင်းပေါင်းစုံ", url: "https://tv.garden/mm/cdsVyojNjKqygk", category: "Live", desc: "StreamTV", domain: "tv.garden" },
   { name: "Iflix (example)", url: "https://www.iflix.com/", category: "ဇာတ်ကား", desc: "Movies & series", domain: "iflix.com" }
 ];
@@ -82,6 +83,7 @@ render(sites);
    - sites array ကို ဖိုင်ရှင်းပေါ်က JSON ဖိုင်တစ်ခုနဲ့ ထည့်ချင်တယ်ဆိုရင် fetch() သုံးပြီး ပြောင်းလဲနိုင်သည်။
    - Icon မပြနိုင်ပါက default placeholder ထည့်လိုပါက makeCard() ထဲမှာ စစ်ပြီး image.onerror သတ်မှတ်နိုင်သည်။
 */
+
 
 
 
