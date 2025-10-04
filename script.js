@@ -13,7 +13,8 @@ const sites = [
   { name: "Myanmar NOW", url: "https://myanmar-now.org/mm/", category: "သတင်း", desc: "သတင်းဆန်းစစ်", domain: "myanmar-now.org/mm/" },
 
   // ဗီဒီယို / မြန်မာစာတန်းထိုး / ဇာတ်ကား နမူနာများ
- 
+
+   { name: "WY MovieBox", url: "https://myanmarnet.vercel.app/", category: "ဇာတ်ကား", desc: "Asian shows & movies", domain: "https://i.ibb.co/3mm1SwVj/photo-2025-09-26-02-06-35.jpg" },
    { name: "မြန်မာစာတန်းထိုးဇာတ်ကားများ", url: "https://mmsubmovie.com/", category: "ဇာတ်ကား", desc: "Asian shows & movies", domain: "mmsubmovie.com" },
   { name: "မြန်မာစာတန်းထိုးရုပ်ရှင်", url: "https://yoteshin.net/", category: "ဇာတ်ကား", desc: "Asian shows & movies", domain: "yoteshin.net" },
   { name: "Viu (Myanmar)", url: "https://www.viu.com/ott/mm", category: "ဇာတ်ကား", desc: "Asian shows & movies", domain: "viu.com" },
@@ -83,6 +84,7 @@ render(sites);
    - sites array ကို ဖိုင်ရှင်းပေါ်က JSON ဖိုင်တစ်ခုနဲ့ ထည့်ချင်တယ်ဆိုရင် fetch() သုံးပြီး ပြောင်းလဲနိုင်သည်။
    - Icon မပြနိုင်ပါက default placeholder ထည့်လိုပါက makeCard() ထဲမှာ စစ်ပြီး image.onerror သတ်မှတ်နိုင်သည်။
 */
+
 
 
 
